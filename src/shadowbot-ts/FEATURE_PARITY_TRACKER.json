@@ -1,6 +1,6 @@
 {
   "version": "1.5.87",
-  "lastUpdated": "2026-05-12",
+  "lastUpdated": "2026-05-13",
   "generatedBy": "shadowbot._dev.parity.generator",
   "sourceOfTruth": "Python SDK (shadowbotagents)",
   "summary": {
@@ -14,7 +14,7 @@
     "priorityP3": 41
   },
   "pythonCoreSDK": {
-    "path": "/home/runner/work/ShadowBot/ShadowBot/src/shadowbot-agents/shadowbotagents",
+    "path": "/home/runner/work/shadowbot/shadowbot/src/shadowbot-agents/shadowbotagents",
     "exports": [
       "A2A",
       "AGUI",
@@ -192,8 +192,6 @@
       "PluginParseError",
       "PluginProtocol",
       "PluginsConfig",
-      "ShadowBotConfigError",
-      "ShadowBotError",
       "PraisonConfig",
       "PromptExpanderAgent",
       "Provider",
@@ -230,6 +228,8 @@
       "SessionConfig",
       "SessionErrorEvent",
       "SessionIdleEvent",
+      "ShadowBotConfigError",
+      "ShadowBotError",
       "SkillLoader",
       "SkillManager",
       "SkillMetadata",
@@ -607,10 +607,10 @@
         "NetworkError",
         "ObservabilityEventType",
         "ObservabilityHooks",
-        "ShadowBotConfigError",
-        "ShadowBotError",
         "SessionErrorEvent",
         "SessionIdleEvent",
+        "ShadowBotConfigError",
+        "ShadowBotError",
         "StopReason",
         "StructuredFormatter",
         "ToolExecutionError",
@@ -749,7 +749,7 @@
     }
   },
   "pythonWrapper": {
-    "path": "/home/runner/work/ShadowBot/ShadowBot/src/shadowbot/shadowbot",
+    "path": "/home/runner/work/shadowbot/shadowbot/src/shadowbot/shadowbot",
     "cliFeatures": [
       "acp",
       "action_orchestrator",
@@ -853,7 +853,7 @@
     ]
   },
   "typescriptSDK": {
-    "path": "/home/runner/work/ShadowBot/ShadowBot/src/shadowbot-ts/src",
+    "path": "/home/runner/work/shadowbot/shadowbot/src/shadowbot-ts/src",
     "exports": [
       "A2A",
       "A2ARole",
@@ -1081,7 +1081,6 @@
       "PluginParseError",
       "PluginType",
       "PostgresSessionStorage",
-      "ShadowBotAgents",
       "PromptExpanderAgent",
       "ProviderMessage",
       "ProviderRegistry",
@@ -1114,6 +1113,7 @@
       "SandboxStatus",
       "Scheduler",
       "Session",
+      "ShadowBotAgents",
       "SkillLoader",
       "SkillManager",
       "SlackBot",
@@ -1657,8 +1657,6 @@
         "ImageAgentConfig",
         "ImageAnalysisConfig",
         "ImageGenerationConfig",
-        "ShadowBotAgents",
-        "ShadowBotAgentsConfig",
         "PromptExpanderAgent",
         "PromptExpanderConfig",
         "QueryRewriterAgent",
@@ -1673,6 +1671,8 @@
         "Router",
         "RouterAgent",
         "RouterConfig",
+        "ShadowBotAgents",
+        "ShadowBotAgentsConfig",
         "SimpleAgentConfig",
         "SimpleRouteConfig",
         "SimpleRouterConfig",
@@ -5010,24 +5010,6 @@
         "category": "config"
       },
       {
-        "feature": "ShadowBotConfigError",
-        "python": true,
-        "typescript": false,
-        "priority": "P3",
-        "effort": "low",
-        "status": "TODO",
-        "category": "other"
-      },
-      {
-        "feature": "ShadowBotError",
-        "python": true,
-        "typescript": false,
-        "priority": "P3",
-        "effort": "low",
-        "status": "TODO",
-        "category": "other"
-      },
-      {
         "feature": "PraisonConfig",
         "python": true,
         "typescript": true,
@@ -5168,6 +5150,24 @@
         "typescript": false,
         "priority": "P3",
         "effort": "high",
+        "status": "TODO",
+        "category": "other"
+      },
+      {
+        "feature": "ShadowBotConfigError",
+        "python": true,
+        "typescript": false,
+        "priority": "P3",
+        "effort": "low",
+        "status": "TODO",
+        "category": "other"
+      },
+      {
+        "feature": "ShadowBotError",
+        "python": true,
+        "typescript": false,
+        "priority": "P3",
+        "effort": "low",
         "status": "TODO",
         "category": "other"
       },

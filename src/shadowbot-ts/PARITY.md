@@ -1,6 +1,6 @@
 # Feature Parity Tracker
 
-> **Version:** 1.5.87 | **Last Updated:** 2026-05-12
+> **Version:** 1.5.87 | **Last Updated:** 2026-05-13
 > **Source of Truth:** Python SDK (shadowbotagents)
 
 ## Summary
@@ -181,10 +181,10 @@
 | `NetworkError` | ✅ | ❌ | low | ⏳ TODO |
 | `ObservabilityEventType` | ✅ | ❌ | high | ⏳ TODO |
 | `ObservabilityHooks` | ✅ | ❌ | high | ⏳ TODO |
-| `ShadowBotConfigError` | ✅ | ❌ | low | ⏳ TODO |
-| `ShadowBotError` | ✅ | ❌ | low | ⏳ TODO |
 | `SessionErrorEvent` | ✅ | ❌ | high | ⏳ TODO |
 | `SessionIdleEvent` | ✅ | ❌ | high | ⏳ TODO |
+| `ShadowBotConfigError` | ✅ | ❌ | low | ⏳ TODO |
+| `ShadowBotError` | ✅ | ❌ | low | ⏳ TODO |
 | `StopReason` | ✅ | ❌ | high | ⏳ TODO |
 | `StructuredFormatter` | ✅ | ❌ | high | ⏳ TODO |
 | `ToolExecutionError` | ✅ | ❌ | low | ⏳ TODO |
@@ -374,7 +374,7 @@
 
 ## Python Core SDK Exports
 
-**Path:** `/home/runner/work/ShadowBot/ShadowBot/src/shadowbot-agents/shadowbotagents`
+**Path:** `/home/runner/work/shadowbot/shadowbot/src/shadowbot-agents/shadowbotagents`
 
 <details>
 <summary><strong>agent</strong> (42 exports)</summary>
@@ -648,7 +648,7 @@ from shadowbotagents import AgentFlow, If, Loop, Parallel, Pipeline, Repeat, Rou
 
 ## TypeScript SDK Exports
 
-**Path:** `/home/runner/work/ShadowBot/ShadowBot/src/shadowbot-ts/src`
+**Path:** `/home/runner/work/shadowbot/shadowbot/src/shadowbot-ts/src`
 
 <details>
 <summary><strong>agent</strong> (64 exports)</summary>
