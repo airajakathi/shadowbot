@@ -1120,7 +1120,7 @@ Methods:
 
 Types/Exports:
 ```ts
-export { Agent, AgentTeam, Agents, ShadowBotAgents, Router } from "./agent";
+export { Agent, AgentTeam, Agents, Router, ShadowBotAgents } from "./agent";
 export type { AgentTeamConfig, ShadowBotAgentsConfig, SimpleAgentConfig, SimpleRouteConfig, SimpleRouterConfig } from "./agent";
 export { AudioAgent, createAudioAgent } from "./agent/audio";
 export type { AudioAgentConfig, AudioProvider, AudioSpeakOptions, AudioSpeakResult, AudioTranscribeOptions, AudioTranscribeResult } from "./agent/audio";
