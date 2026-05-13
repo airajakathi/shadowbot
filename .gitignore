@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+.DS_Store
+*.sqlite
+*.db
+.venv/
+venv/
+uv.lock
+poetry.lock

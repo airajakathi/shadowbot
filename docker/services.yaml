@@ -1,0 +1,5 @@
+framework: shadowbotagents
+services:
+  - ui
+  - chat
+  - realtime
